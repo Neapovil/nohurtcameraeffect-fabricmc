@@ -4,19 +4,19 @@
   "version": "${version}",
   "name": "NoHurtCameraEffect",
   "description": "",
-  "authors": ["Nearata"],
+  "authors": ["Neapovil"],
   "contact": {},
   "license": "Unlicense",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.github.nearata.nohurtcameraeffect.NoHurtCameraEffect"],
-    "modmenu": [ "com.github.nearata.nohurtcameraeffect.modmenu.ModMenu" ]
+    "client": ["com.github.neapovil.nohurtcameraeffect.NoHurtCameraEffect"],
+    "modmenu": ["com.github.neapovil.nohurtcameraeffect.modmenu.ModMenu"]
   },
   "mixins": ["nohurtcameraeffect.mixins.json"],
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": "~1.18",
     "java": ">=17"
   },
   "suggests": {}

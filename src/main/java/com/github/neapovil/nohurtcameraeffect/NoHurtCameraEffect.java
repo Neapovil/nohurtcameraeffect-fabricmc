@@ -1,12 +1,12 @@
-package com.github.nearata.nohurtcameraeffect;
+package com.github.neapovil.nohurtcameraeffect;
 
-import com.github.nearata.nohurtcameraeffect.modmenu.ModConfig;
+import com.github.neapovil.nohurtcameraeffect.modmenu.ModConfig;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 
-public class NoHurtCameraEffect implements ClientModInitializer
+public final class NoHurtCameraEffect implements ClientModInitializer
 {
     public static ModConfig MODCONFIG;
 

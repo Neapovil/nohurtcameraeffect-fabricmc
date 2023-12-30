@@ -1,4 +1,4 @@
-package com.github.nearata.nohurtcameraeffect.modmenu;
+package com.github.neapovil.nohurtcameraeffect.modmenu;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

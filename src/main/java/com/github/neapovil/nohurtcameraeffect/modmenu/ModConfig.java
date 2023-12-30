@@ -1,4 +1,4 @@
-package com.github.nearata.nohurtcameraeffect.modmenu;
+package com.github.neapovil.nohurtcameraeffect.modmenu;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
