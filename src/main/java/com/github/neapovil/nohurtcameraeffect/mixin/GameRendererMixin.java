@@ -13,7 +13,7 @@ import com.github.neapovil.nohurtcameraeffect.NoHurtCameraEffect;
 @Mixin(GameRenderer.class)
 public class GameRendererMixin
 {
-    @Inject(at = @At("HEAD"), method = "bobViewWhenHurt", cancellable = true)
+    @Inject(at = @At("HEAD"), method = "tiltViewWhenHurt", cancellable = true)
     private void bobViewWhenHurt(MatrixStack matrices, float tickDelta, CallbackInfo info)
     {
         if (NoHurtCameraEffect.MODCONFIG.toggle)
